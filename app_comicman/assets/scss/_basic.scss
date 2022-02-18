@@ -1,0 +1,82 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: "AnimeAce-regular";
+    src: url("../fonts/anime-ace-family/anime-ace.regular.ttf");
+}
+@font-face {
+    font-family: "AnimeAce-bold";
+    src: url("../fonts/anime-ace-family/anime-ace.italic.ttf");
+}
+*{
+    font-family: "AnimeAce-regular";
+}
+#container{
+    background-color: #ffffff;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    /*Menú con efecto underline*/
+    /* header{
+        nav{
+            margin: 15px;
+            ul{
+                width: 50vw;
+                height: 5vh;
+                background-color: #0f0f0f;
+                border: solid 3px #000000;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                li{
+                    list-style: none;
+                  a{
+                    position: relative;
+                    text-decoration: none;
+                    color: #a0a0a0;
+                    font-size: 18px;
+                    letter-spacing: 0.5px;
+                    padding: 0 10px;
+                    &:hover{
+                        color: #ffffff;
+                    }
+                    &:after{
+                        content: "";
+                        position: absolute;
+                        background-color: #ff3c78;
+                        height: 3px;
+                        width: 0;
+                        left: 0;
+                        bottom: -10px;
+                        transition: 0.3s;
+                    }
+                    &:hover:after{
+                        width: 100%;
+                    }
+                  }
+                }
+            }
+        }
+    } */
+/***************************/
+    h1{
+        text-align: center;
+        font-family: "AnimeAce-bold";
+        font-size: 35px;
+        margin-top: 25px;
+        margin-bottom: 65px;
+    }
+    h2{
+        margin:15px;
+    }
+}
