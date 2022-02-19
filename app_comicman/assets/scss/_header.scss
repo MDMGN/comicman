@@ -1,6 +1,9 @@
+/****Initializing variables****/
+$background-color:rgb(228, 140, 140);
+
 body {
-    background: rgb(228, 140, 140);
-    color: rgb(63, 55, 55);
+    background: $background-color;
+    color: rgb(255, 217, 0);
     background-color: #f72006;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23000000' fill-opacity='1'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     font-size: 16px;
@@ -8,7 +11,7 @@ body {
 }
 
 a {
-    color: rgb(31, 31, 22);
+    color: rgb(243, 243, 243);
     text-decoration: none;
 }
 
@@ -30,16 +33,47 @@ ul{
     padding: 20px 0 ;   
 }
 .nav-brand {
-    width: 150px;
+    width: 100px;
 }
 /*nav left*/
 .nav-main ul {
     display: flex;   
 }
 .nav-main ul li {
-    padding: 10px;
+    padding: 40px;
 }
+.nav-main ul li  a:hover {
+ border-bottom: 2px solid white;
+}
+
 .nav-main ul .nav-menu {
-
+    flex: 1;
+    margin-left: 20px;
+}
+/*showcase*/
+.showcase {
+    width: 100%;
+  height: 550px;
+  background: url(/app_comicman/assets/images/showcase_one.png) no-repeat center center/cover;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgb(253, 9, 9);
+    color: wheat;
+    font-size: 15px;
+    border: 1px solid white;
+    margin: 10px 0;
+}
+.btn:hover {
+    opacity: .7;
+}
