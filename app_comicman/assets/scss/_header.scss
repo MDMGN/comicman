@@ -30,7 +30,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    padding: 20px 0 ;   
+    padding: 55px 0 ;   
 }
 .nav-brand {
     width: 100px;
@@ -59,6 +59,7 @@ hr{
   height: 550px;
   background: url(/app_comicman/assets/images/showcase_one.png) no-repeat center center/cover  ;
   padding-bottom: 18px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,4 +83,32 @@ hr{
 }
 .showcase h2 .showcase p {
     margin-bottom: 10px;
+}
+/*new cards*/
+
+.new-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+.new-cards img {
+    width: 100%;
+    height: 180px;
+
+}
+.new-cards h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.new-cards a {
+    padding: 10px 0;
+    color: red;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+.new-cards a:hover{
+    text-decoration: underline;
+    
 }
