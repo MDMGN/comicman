@@ -1,8 +1,9 @@
 /**
-Iniziliazando variables
+Comicman Styles
 */
-$color-black-page:#161515;
 /*************************************************/
-/****Styles Basic********/
+/****Styles Index********/
 @import "basic";
+@import "resources";
 @import "header";
+@import "main";
