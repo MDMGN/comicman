@@ -115,6 +115,13 @@ ul {
 }
 
 /****darkmoder****/
+.btn_darkmoder {
+  color: #fff;
+}
+.btn_darkmoder:hover {
+  cursor: pointer;
+}
+
 body.darkmoder {
   filter: invert(100%);
 }

@@ -54,6 +54,12 @@ ul{
     }
 }
 /****darkmoder****/
+.btn_darkmoder{
+    color:#fff;
+    &:hover{
+        cursor:pointer;
+    }
+}
 
 body.darkmoder{
     filter: invert(100%);
