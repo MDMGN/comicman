@@ -53,22 +53,35 @@ ul{
         display: initial;
     }
 }
+/****darkmoder****/
 
+body.darkmoder{
+    filter: invert(100%);
+    hr{
+        filter: invert(100%);
+    }
+    img{
+        filter: invert(100%);
+    }
+    .showcase{
+        filter: invert(100%);
+    }
+}
 /*showcase*/
 hr{
     margin: 30px 0;
 }
 .showcase {
     width: 100%;
-  height: 550px;
-  background: url('../images/showcase_one.png') no-repeat center center/cover  ;
-  padding-bottom: 18px;
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
+    height: 550px;
+    background: url('../images/showcase_one.png') no-repeat center center/cover  ;
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    }
 
 .btn{
     cursor: pointer;

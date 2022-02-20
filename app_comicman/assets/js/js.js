@@ -12,4 +12,11 @@ addEventListener('DOMContentLoaded' , ()=>{
             icon_search.classList.toggle('hide');
         });
     }
+    const btn_acept_privacity=document.querySelector('#btn_acept_privacity');
+    if(btn_acept_privacity){
+        const modal_window_welcome=document.querySelector(".modal-window-welcome");
+        btn_acept_privacity.addEventListener('click', ()=>{
+            modal_window_welcome.classList.toggle('hide');
+        });
+    }
 });
