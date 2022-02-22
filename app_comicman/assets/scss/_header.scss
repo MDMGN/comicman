@@ -17,7 +17,8 @@ ul{
     justify-content: space-between;
     align-items: center;
     height: 10px;
-    padding: 80px 80px ;   
+    padding: 40px 40px ;
+    background-color: rgb(0, 0, 0);
 }
 .nav-brand {
     width: 100px;
@@ -72,7 +73,13 @@ body.darkmoder{
     .showcase{
         filter: invert(100%);
     }
-}
+    .cards-banner-one {
+    filter: invert(100%);
+    }
+    }
+    .content {
+    filter: invert(100%);
+    }
 /*showcase*/
 hr{
     margin: 30px 0;
@@ -107,3 +114,4 @@ hr{
 .showcase h2 .showcase p {
     margin-bottom: 10px;
 }
+/*responsive*/ 
