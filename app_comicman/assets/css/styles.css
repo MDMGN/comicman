@@ -89,25 +89,6 @@ ul {
   margin-left: 20px;
 }
 
-/***Search***/
-.search {
-  display: flex;
-  /*  input{
-       width: 0px;
-       &:hover, &:focus{
-       width:300px;
-       }
-   } */
-}
-
-.search input {
-  width: 0px;
-}
-
-.search:hover input, .search input:focus {
-  width: 60px;
-}
-
 /****darkmoder****/
 .btn_darkmoder {
   color: #fff;
