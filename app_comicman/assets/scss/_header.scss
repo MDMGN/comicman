@@ -37,22 +37,7 @@ ul{
     flex: 1;
     margin-left: 20px;
 }
-.btn-search{
-    display: none;
-    margin: 0px;
-    background-color: #3d3434;
-    border:none;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 10px 20px;
-    &::placeholder{
-    color:rgb(236, 232, 232);
-    font-size: 12px;
-    }
-    &:target{
-        display: initial;
-    }
-}
+
 /****darkmoder****/
 .btn_darkmoder{
     color:#fff;

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,UAAU;AAEV,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,IAAI;CACf;;AACD,AAAA,OAAO,CAAC,CAAC,CAAC;EACN,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;CAEtB",
-    "sources": [
-        "../scss/footer.scss"
-    ],
-    "names": [],
-    "file": "footer.css"
-}
