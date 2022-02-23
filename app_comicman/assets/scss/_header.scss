@@ -72,21 +72,33 @@ body.darkmoder{
 hr{
     margin: 30px 0;
 }
-.showcase {
+@mixin showcase {
     width: 100%;
     height: 550px;
-    background: url('../images/showcase_one.png') no-repeat center center/cover  ;
     padding-bottom: 18px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    }
+}
+.showcase-1{
+    @include showcase();
+    background: url('../images/showcase_one.png') no-repeat center center/cover  ;
+}
+.showcase-2{
+    @include showcase();
+    background: url('../images/showcase_two.png') no-repeat center center/cover  ;
+}
+.showcase-3{
+    @include showcase()
+        background: url('../images/showcase_tre.png') no-repeat center center/cover  ;
+}
 
 .btn{
     cursor: pointer;
     display: inline-block;
+    position: relative;
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
@@ -94,7 +106,8 @@ hr{
     color: rgb(236, 232, 232);
     font-size: 15px;
     border: 1px solid white;
-    margin: 10px 0;
+    margin: 15px 0;
+    left:15%;
 }
 .btn:hover {
     opacity: .7;
