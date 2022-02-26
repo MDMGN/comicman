@@ -116,11 +116,14 @@ body.darkmoder hr {
 body.darkmoder img {
   filter: invert(100%);
 }
-body.darkmoder .showcase {
+body.darkmoder .showcase-1 {
   filter: invert(100%);
 }
 body.darkmoder .cards-banner-one {
   filter: invert(100%);
+}
+body.darkmoder .cards-banner-two {
+  filter: invert 100%;
 }
 
 .content {

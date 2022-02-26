@@ -58,11 +58,14 @@ body.darkmoder{
     img{
         filter: invert(100%);
     }
-    .showcase{
+    .showcase-1{
         filter: invert(100%);
     }
     .cards-banner-one {
     filter: invert(100%);
+    }
+    .cards-banner-two{
+        filter: invert (100%);
     }
     }
     .content {
@@ -91,7 +94,7 @@ hr{
     background: url('../images/showcase_two.png') no-repeat center center/cover  ;
 }
 .showcase-3{
-    @include showcase()
+    @include showcase();
         background: url('../images/showcase_tre.png') no-repeat center center/cover  ;
 }
 
